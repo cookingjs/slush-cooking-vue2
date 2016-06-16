@@ -1,0 +1,28 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.0",
+  "description": "<%= description %>",
+  "private": <%= private %>,
+  "keywords": [
+    ""
+  ],
+  "scripts": {
+    "dev": "cooking watch",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color"
+  },<% if (github) { %>
+  "repository": {
+    "type": "git",
+    "url": "git+<%= github %>.git"
+  },
+  "homepage": "<%= github %>#readme",
+  "bugs": {
+    "url": "<%= github %>/issues"
+  },<% } %><% if (author) { %>
+  "author": "<%= author %>",<% } %>
+  "license": "<%= license %>",
+  "dependencies": {
+    "vue": "^2.0.0-alpha.2",
+    "vue-loader": "^9.0.0"
+  }
+}

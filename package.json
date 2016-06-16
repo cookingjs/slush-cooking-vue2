@@ -1,0 +1,24 @@
+{
+  "name": "slush-cooking-vue2",
+  "version": "0.0.0",
+  "description": "A cooking generator.",
+  "keywords": [
+    "slush-cooking-vue2",
+    "cooking",
+    "slushgenerator"
+  ],
+  "scripts": {
+    "dev": "cooking watch",
+    "dist": "cooking build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cookingjs/slush-cooking-vue2/slush-cooking-vue2.git"
+  },
+  "homepage": "https://github.com/cookingjs/slush-cooking-vue2/slush-cooking-vue2#readme",
+  "bugs": {
+    "url": "https://github.com/cookingjs/slush-cooking-vue2/slush-cooking-vue2/issues"
+  },
+  "author": "qingwei-li<cinwell.li@gmail.com>",
+  "license": "MIT"
+}
