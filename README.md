@@ -3,5 +3,7 @@
 
 ## Quick Start
 ```shell
-cooking init slush-cooking-vue2
+cooking init vue2
 ```
+## License
+MIT
